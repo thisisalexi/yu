@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap');
+
+.background {
+    /* display: flex;
+    justify-content: center; */
+    height: fit-content;
+    width: 100%;
+    background-color: #c06631;
+}
+.header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.image {
+    width: 120px;
+    height: 120px;
+}
+.body-flex {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    margin-right: 10px;
+
+}
+.body-flex1 {
+    display: flex;
+    justify-content: center;
+    width: 10%;
+    gap: 10px;
+    /* margin-top: 20px;
+    margin-right: 10px; */
+    margin: 0 auto;
+
+}
+.icon-bg {
+    width: 36px;
+    height: 36px;
+    border-radius: 50px;
+    background-color: white;
+    border: 2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.icon {
+    font-size: 36px;
+    padding: 2px;
+}
+.icont {
+    font-size: 36px;
+    padding: 2px;
+    color: #29abed;
+}
+.yu {
+    font-family: "JetBrains Mono", system-ui;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    /* transform: scaleX(); */
+}
+.yumage {
+    width: 100%;
+}
+.yumage1 {
+    width: 300px;
+    height: 200px;
+}
+.yumage-cont {
+    border: 6px solid black;
+    border-radius: 10px;
+    width: 40%;
+    height: 30%;
+    margin: 0 auto;
+}
+.text-bg {
+    background-color: #5c2302;
+    border: 4px solid brown;
+    border-radius: 10px;
+    width: 80%;
+    padding: 20px;
+    margin: 30px auto;
+}
+.text-bg p {
+    color: #b89784;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.center1 {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+}
+.image-folder {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.yumemes {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    margin-top: 30px;  
+}
+.buynow {
+    margin: 0 auto;
+    background-color: white;
+    width: fit-content;
+    padding: 10px 30px;
+    border: 5px solid #5c2302;
+    cursor: pointer;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+.copyright {
+    padding-top: 150px;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width: 760px) {
+    .body-flex {
+        display: none;
+    }
+    .header {
+        justify-content: center;
+
+    }
+    .image-folder {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+    }
+}
